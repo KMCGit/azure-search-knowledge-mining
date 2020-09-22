@@ -48,6 +48,7 @@ a {
 a:active,
 a:hover {
   outline: 0;
+  color: #000;
 }
 abbr[title] {
   border-bottom: 1px dotted;
@@ -1097,13 +1098,13 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #00a98f;
   text-decoration: none;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 a:hover,
 a:focus {
-  color: #23527c;
-  text-decoration: underline;
+  color: #0071b9;
 }
 a:focus {
   outline: 5px auto -webkit-focus-ring-color;
@@ -1341,21 +1342,21 @@ mark,
 }
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #286090;
+    color: #0071b9;
 }
 .text-success {
   color: #3c763d;
 }
 a.text-success:hover,
 a.text-success:focus {
-  color: #2b542c;
+    color: #000000;
 }
 .text-info {
   color: #31708f;
 }
 a.text-info:hover,
 a.text-info:focus {
-  color: #245269;
+    color: #0071b9;
 }
 .text-warning {
   color: #8a6d3b;
@@ -1377,35 +1378,35 @@ a.text-danger:focus {
 }
 a.bg-primary:hover,
 a.bg-primary:focus {
-  background-color: #286090;
+    background-color: #0071b9;
 }
 .bg-success {
   background-color: #dff0d8;
 }
 a.bg-success:hover,
 a.bg-success:focus {
-  background-color: #c1e2b3;
+    background-color: #0071b9;
 }
 .bg-info {
   background-color: #d9edf7;
 }
 a.bg-info:hover,
 a.bg-info:focus {
-  background-color: #afd9ee;
+    background-color: #000;
 }
 .bg-warning {
   background-color: #fcf8e3;
 }
 a.bg-warning:hover,
 a.bg-warning:focus {
-  background-color: #f7ecb5;
+    background-color: #0071b9;
 }
 .bg-danger {
   background-color: #f2dede;
 }
 a.bg-danger:hover,
 a.bg-danger:focus {
-  background-color: #e4b9b9;
+    background-color: #0071b9;
 }
 .page-header {
   padding-bottom: 9px;
@@ -3027,12 +3028,12 @@ select[multiple].input-lg {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
-.btn:hover,
-.btn:focus,
-.btn.focus {
-  color: #333;
-  text-decoration: none;
-}
+    .btn:hover,
+    .btn:focus,
+    .btn.focus {
+        color: #000000;
+        text-decoration: none;
+    }
 .btn:active,
 .btn.active {
   background-image: none;
@@ -4570,7 +4571,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-link:hover {
-  color: #333;
+  color: #3c763d;
 }
 .navbar-default .btn-link {
   color: #777;

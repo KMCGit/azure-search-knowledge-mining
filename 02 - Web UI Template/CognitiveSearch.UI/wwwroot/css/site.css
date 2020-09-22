@@ -219,12 +219,10 @@ h1, h2, h3, h4, h5 {
 }
 
 .home-page-background {
-    /*background-image: url("../images/bg-blue-pattern.svg");*/
-    /*background-position-y: 60%;*/
-    background-color: #0078d7;
-    height: 350px;
-    padding: 10px 0 10px 0;
-    margin-bottom: 20px;
+    background-image: url(../images/data_server.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
 }
 
 .home-jumbo {
@@ -318,6 +316,7 @@ h1, h2, h3, h4, h5 {
 .navbar {
     margin-bottom: 0 !important;
     border-bottom: 1px solid #959595 !important;
+    height: 100px;
 }
 
 .navbar-brand {
@@ -330,7 +329,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .navbar-brand-logo {
-    margin: 10px;
+    margin-top: 25px;
+    margin-left: -35px;
     float: left;
     width: auto;
     height: 30px;
@@ -362,12 +362,16 @@ h1, h2, h3, h4, h5 {
 }
 
 .navbar-text {
-    font-size: 16px;
+    font-size: 18px;
     float: left;
     vertical-align: middle;
-    margin-top: 5px !important;
+    margin-top: 40px !important;
     width: auto;
-    margin-bottom: 0 !important
+    color: #000;
+    margin-bottom: 0 !important;
+    font-style:normal;
+    font-weight:bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .card {
@@ -558,7 +562,7 @@ pre {
     padding: 0;
 }
 
-* Style the list */ ul.breadcrumb {
+* Sty the list */ ul.breadcrumb {
     padding: 10px 16px;
     list-style: none;
     background-color: #eee;

@@ -1,1 +1,5 @@
-.navbar-bg{background-color:#ffffff}.navbar-text-color{color:#000000}
+.navbar-bg{background-color:#292929}.footer-bg{background-color:#292929}.navbar-text-color{color:#00a98f}
+.navbar ul li a:hover {
+    color: #0071b9;
+}
+
